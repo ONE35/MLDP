@@ -3,7 +3,7 @@ import joblib
 import streamlit as st
 import numpy as np
 
-model = joblib.load('dump/b_lr.pkl')
+model = joblib.load('b_lr.pkl')
 
 st.title("HDB Resale Price Prediction")
 
